@@ -1,0 +1,33 @@
+DEBUG	/home/gabrielc/Home/Dalilel/TPII/src/main.h	/^#define DEBUG /;"	macro	line:4
+addRandom	/home/gabrielc/Home/Dalilel/TPII/src/main.c	/^void addRandom(little little)$/;"	function	line:3	signature:(little little)
+main	/home/gabrielc/Home/Dalilel/TPII/src/main.c	/^int main()$/;"	function	line:21
+littleCria	/home/gabrielc/Home/Dalilel/TPII/src/Little/Little.c	/^void littleCria(little *alvo)$/;"	function	line:5	signature:(little *alvo)
+littleVazio	/home/gabrielc/Home/Dalilel/TPII/src/Little/Little.c	/^bool littleVazio(little *alvo)$/;"	function	line:12	signature:(little *alvo)
+littleCheio	/home/gabrielc/Home/Dalilel/TPII/src/Little/Little.c	/^bool littleCheio(little *alvo)$/;"	function	line:19	signature:(little *alvo)
+littleSize	/home/gabrielc/Home/Dalilel/TPII/src/Little/Little.c	/^size_t littleSize(little *alvo)$/;"	function	line:26	signature:(little *alvo)
+littlePosicao	/home/gabrielc/Home/Dalilel/TPII/src/Little/Little.c	/^int littlePosicao(little *alvo, size_t index)$/;"	function	line:33	signature:(little *alvo, size_t index)
+littleSeta	/home/gabrielc/Home/Dalilel/TPII/src/Little/Little.c	/^void littleSeta(little *alvo, size_t index, int valor)$/;"	function	line:42	signature:(little *alvo, size_t index, int valor)
+littleImprime	/home/gabrielc/Home/Dalilel/TPII/src/Little/Little.c	/^void littleImprime(little *alvo)$/;"	function	line:51	signature:(little *alvo)
+littleRetira	/home/gabrielc/Home/Dalilel/TPII/src/Little/Little.c	/^bool littleRetira(little *alvo, reg_type *reg)$/;"	function	line:59	signature:(little *alvo, reg_type *reg)
+littleInsere	/home/gabrielc/Home/Dalilel/TPII/src/Little/Little.c	/^int littleInsere(little *alvo, reg_type *reg)$/;"	function	line:79	signature:(little *alvo, reg_type *reg)
+littleOrdena	/home/gabrielc/Home/Dalilel/TPII/src/Little/Little.c	/^void littleOrdena(little *alvo)$/;"	function	line:111	signature:(little *alvo)
+littlePesquisa	/home/gabrielc/Home/Dalilel/TPII/src/Little/Little.c	/^int littlePesquisa(little *alvo, reg_type *reg, bool *found, bool verbose)$/;"	function	line:133	signature:(little *alvo, reg_type *reg, bool *found, bool verbose)
+BSIZE	/media/veracrypt7/Dalilel/TPII/src/Little/Little.h	/^#define BSIZE /;"	macro	line:10
+BSIZE_NODE	/media/veracrypt7/Dalilel/TPII/src/Little/Little.h	/^#define BSIZE_NODE /;"	macro	line:11
+reg_type	/media/veracrypt7/Dalilel/TPII/src/Little/Little.h	/^typedef int reg_type;$/;"	typedef	line:13
+little	/media/veracrypt7/Dalilel/TPII/src/Little/Little.h	/^typedef struct little$/;"	struct	line:15
+itens	/media/veracrypt7/Dalilel/TPII/src/Little/Little.h	/^	reg_type itens[2*BSIZE];$/;"	member	line:17	struct:little
+size	/media/veracrypt7/Dalilel/TPII/src/Little/Little.h	/^	size_t size;$/;"	member	line:18	struct:little
+little	/media/veracrypt7/Dalilel/TPII/src/Little/Little.h	/^} little;$/;"	typedef	line:19	typeref:struct:little
+BSIZE	/media/veracrypt7/Dalilel/TPII/src/ArvoreB/ArvoreB.h	/^#define BSIZE /;"	macro	line:12
+BSIZE_NODE	/media/veracrypt7/Dalilel/TPII/src/ArvoreB/ArvoreB.h	/^#define BSIZE_NODE /;"	macro	line:13
+page	/media/veracrypt7/Dalilel/TPII/src/ArvoreB/ArvoreB.h	/^typedef struct page page;$/;"	typedef	line:16	typeref:struct:page
+page	/media/veracrypt7/Dalilel/TPII/src/ArvoreB/ArvoreB.h	/^typedef struct page$/;"	struct	line:17
+item	/media/veracrypt7/Dalilel/TPII/src/ArvoreB/ArvoreB.h	/^	little item;$/;"	member	line:19	struct:page
+filho	/media/veracrypt7/Dalilel/TPII/src/ArvoreB/ArvoreB.h	/^	page *filho[2*BSIZE + 1];$/;"	member	line:20	struct:page
+filhos	/media/veracrypt7/Dalilel/TPII/src/ArvoreB/ArvoreB.h	/^	size_t filhos;$/;"	member	line:21	struct:page
+page	/media/veracrypt7/Dalilel/TPII/src/ArvoreB/ArvoreB.h	/^} page;$/;"	typedef	line:22	typeref:struct:page
+arvoreBCria	/media/veracrypt7/Dalilel/TPII/src/ArvoreB/ArvoreB.c	/^bool arvoreBCria(page **raiz)$/;"	function	line:3	signature:(page **raiz)
+arvoreBInsereAux	/media/veracrypt7/Dalilel/TPII/src/ArvoreB/ArvoreB.c	/^bool arvoreBInsereAux(reg_type *reg, page **raiz, bool *cresceu, reg_type *reg_retorno, page **ap_retorno)$/;"	function	line:11	signature:(reg_type *reg, page **raiz, bool *cresceu, reg_type *reg_retorno, page **ap_retorno)
+arvoreBInsere	/media/veracrypt7/Dalilel/TPII/src/ArvoreB/ArvoreB.c	/^bool arvoreBInsere(page **raiz, reg_type *reg)$/;"	function	line:25	signature:(page **raiz, reg_type *reg)
+arvoreBPesquisa	/media/veracrypt7/Dalilel/TPII/src/ArvoreB/ArvoreB.c	/^bool arvoreBPesquisa(page **raiz, int *reg)$/;"	function	line:49	signature:(page **raiz, int *reg)

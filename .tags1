@@ -1,0 +1,10 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	0	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+arvoreBCria	/media/veracrypt7/Dalilel/TPII/src/ArvoreB/ArvoreB.c	/^bool arvoreBCria(page **raiz)$/;"	function	line:3	signature:(page **raiz)
+arvoreBInsereAux	/media/veracrypt7/Dalilel/TPII/src/ArvoreB/ArvoreB.c	/^bool arvoreBInsereAux(reg_type *reg, page **raiz, bool *cresceu, reg_type *reg_retorno, page **ap_retorno)$/;"	function	line:11	signature:(reg_type *reg, page **raiz, bool *cresceu, reg_type *reg_retorno, page **ap_retorno)
+arvoreBInsere	/media/veracrypt7/Dalilel/TPII/src/ArvoreB/ArvoreB.c	/^bool arvoreBInsere(page **raiz, reg_type *reg)$/;"	function	line:25	signature:(page **raiz, reg_type *reg)
+arvoreBPesquisa	/media/veracrypt7/Dalilel/TPII/src/ArvoreB/ArvoreB.c	/^bool arvoreBPesquisa(page **raiz, int *reg)$/;"	function	line:49	signature:(page **raiz, int *reg)
